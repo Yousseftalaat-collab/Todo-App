@@ -10,9 +10,9 @@ This project focuses on clean design, dynamic interactivity, and smooth user exp
 
 <h2>📸 Preview</h2>
 <div align="center">
-  <img src="./screenshot#1.png" width="800" alt="Todo App Dark Mode Preview"/>
+  <img src="./screenshot-dark.png" width="800" alt="Todo App Dark Mode Preview"/>
   <br><br>
-  <img src="./screenshot#2.png" width="800" alt="Todo App Light Mode Preview"/>
+  <img src="./screenshot-light.png" width="800" alt="Todo App Light Mode Preview"/>
 </div>
 
 <hr>
