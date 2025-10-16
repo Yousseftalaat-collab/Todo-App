@@ -44,21 +44,6 @@ This project focuses on clean design, dynamic interactivity, and smooth user exp
 
 <hr>
 
-<h2>🧠 What I Practiced</h2>
-<ul>
-  <li>Building a fully interactive web app using Vanilla JavaScript</li>
-  <li>Using <strong>ES Modules</strong> to structure project logic cleanly</li>
-  <li>Saving and retrieving data from <strong>Local Storage</strong></li>
-  <li>Implementing <strong>Drag & Drop</strong> reordering with event listeners</li>
-  <li>Creating a <strong>Dark/Light theme toggle</strong> with CSS variables</li>
-  <li>Designing <strong>responsive layouts</strong> using Flexbox and media queries</li>
-  <li>Adding <strong>hover animations</strong> and transitions for smooth UX</li>
-  <li>Ensuring <strong>accessibility</strong> with ARIA attributes and keyboard focus</li>
-  <li>Writing <strong>maintainable, reusable CSS and JS</strong></li>
-</ul>
-
-<hr>
-
 <h2>🧪 How to Run</h2>
 <ol>
   <li>📥 Clone or download this repository</li>
