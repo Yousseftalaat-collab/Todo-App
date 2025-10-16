@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="Page icon" href="./images/Page-icon.png" />
+    <title>Todo App</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body data-theme="dark">
+    <header class="hero">
+      <div class="container header-inner">
+        <h1 class="logo">TODO</h1>
+        <button id="themeToggle" aria-label="Toggle theme" class="theme-toggle">
+          <img src="./images/icon-moon.svg" alt="Dark mode" />
+        </button>
+      </div>
+    </header>
+
+    <main class="container margin">
+      <section class="todo-app" aria-label="Todo app">
+        <form id="todoForm" class="todo-input-form" autocomplete="off">
+          <button
+            type="button"
+            class="circle-placeholder"
+            aria-hidden="true"
+          ></button>
+          <input
+            id="todoInput"
+            class="todo-input"
+            placeholder="Create a new todo..."
+            type="text"
+          />
+        </form>
+
+        <div class="todo-list-card">
+          <ul id="todoList" class="todo-list" aria-live="polite"></ul>
+
+          <div class="todo-footer">
+            <span id="itemsLeft" class="items-left">0 items left</span>
+
+            <nav class="filters" role="tablist" aria-label="Filter todos">
+              <button class="filter-btn active" data-filter="all">All</button>
+              <button class="filter-btn" data-filter="active">Active</button>
+              <button class="filter-btn" data-filter="completed">
+                Completed
+              </button>
+            </nav>
+
+            <button id="clearCompleted" class="clear-btn">
+              Clear Completed
+            </button>
+          </div>
+        </div>
+
+        <p class="drag-hint">Drag and drop to reorder list</p>
+      </section>
+    </main>
+    <script src="./scripts/main.js" type="module"></script>
+  </body>
+</html>
